@@ -1,0 +1,47 @@
+#container{
+    display: flex;
+}
+
+.column{
+    flex: 1;
+    padding: 1em;
+    width: 45%;
+    float: left;
+    color: white;
+    font-family: "Georgia", Georgia, serif;
+    font-size: 24px;
+    overflow: scroll;
+}
+
+#left{
+    background-color: #656a6d;
+}
+
+#left img{
+    width: 85%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#right{
+    background-color: #aebac3;
+}
+
+p{
+    line-height: 1;
+}
+
+.large{
+    font-size: 48px;
+}
+
+pre{
+    font-family: Georgia, 'Times New Roman', Serif;
+    line-height: 1;
+}
+
+#intro-space{
+    height: 70%;
+}
