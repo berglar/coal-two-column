@@ -10,7 +10,8 @@
 }
 
 #poem_2{
- 
+    overflow: hidden;
+    width: 400px;
 }
 
 #chapel_image{
@@ -28,7 +29,6 @@
 }
 
 .poem-container{
-    opacity: 0.9;
     background: rgba(0,0,0, 0.7);
 }
 
