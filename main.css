@@ -1,9 +1,105 @@
-#container{
+.container{
+    /*display: flow-root;*/
+    /*display: flex;
+    flex-wrap: wrap;   
+    overflow: hidden;*/
+}
+
+.row-1{
     display: flex;
 }
 
+#poem_2{
+ 
+}
+
+#chapel_image{
+    position: fixed;
+    left: 400px;
+}
+
+
+.left{
+    /*background-color: #28282A;*/
+    color:#D5D1D1;
+    
+    float: left;
+    position: sticky;
+}
+
+.poem-container{
+    opacity: 0.9;
+    background: rgba(0,0,0, 0.7);
+}
+
+#poem_2{
+    /*flex: 1 1 300px;*/
+    /*width: 400px;*/
+    padding: 10px;
+    /*width: 300px;*/
+}
+
+
+
+.stanza{
+    font-family: 'Nanum Myeongjo', serif;
+    font-style: italic;
+    font-size: 18px;
+
+    border-left: 0.2rem solid #D5D1D1;
+}
+
+.right{
+    background-color: red;
+}
+
+.right-col-img{
+    position: sticky;    
+}
+
+
+
+.normal{
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 18px;
+}
+
+.quote{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.indent{
+    margin-left: 30px; /* todo make this a percentage? */
+}
+
+.double-indent{
+    margin-left: 60px;
+}
+
+.triple-indent{
+    margin-left: 90px;
+}
+
+.double-indent{
+    margin-left: 108px; /* todo make this a percentage? */  
+}
+
+.space-sm{
+    height: 20px;
+}
+
+.space-med{
+    height: 60px;
+}
+
+.space-lg{
+    height: 90px;
+}
+
 .column{
-    flex: 1;
+    /*flex: 1;*/
     padding: 1em;
     width: 45%;
     float: left;
@@ -13,8 +109,10 @@
     overflow: scroll;
 }
 
+
+
 #left{
-    background-color: #656a6d;
+    /*background-color: #656a6d;*/
 }
 
 #left img{
@@ -25,6 +123,16 @@
     margin-right: auto;
 }
 
+/*
+#flex_item{
+    position: fixed;
+    width: 500px;
+}
+
+#flex_item img{
+    width: 85%;
+}
+*/
 #right{
     background-color: #aebac3;
 }
@@ -44,4 +152,9 @@ pre{
 
 #intro-space{
     height: 80%;
+}
+
+.sticky{
+    display: sticky;
+    top: 20px;
 }
